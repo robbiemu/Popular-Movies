@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tag_grid_view_item_position"/>
+    <string name="key_grid_view_position" translatable="false">position</string>
+    <string name="key_grid_view_columns" translatable="false">columns</string>
+</resources>

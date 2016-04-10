@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_detail">Movie</string>
+
+    <string name="tag_gridview_three_columns">3</string>
+    <string name="tag_gridview_two_columns">2</string>
+    <string name="tag_gridview_one_column">1</string>
+
+    <!-- TMDB settings -->
+    <string name="pref_header_tmdb">theMovieDB</string>
+
+    <string name="pref_title_tmdb_query_sort_by">Sort by</string>
+    <string-array name="pref_entries_tmdb_sort_by">
+        <item>popularity</item>
+        <item>release date</item>
+        <item>revenue</item>
+        <item>primary release date</item>
+        <item>original title</item>
+        <item>average vote</item>
+        <item>vote count</item>
+    </string-array>
+    <string-array name="pref_values_tmdb_sort_by">
+        <item>popularity</item>
+        <item>release_date</item>
+        <item>revenue</item>
+        <item>primary_release_date</item>
+        <item>original_title</item>
+        <item>vote_average</item>
+        <item>vote_count</item>
+    </string-array>
+    <string name="pref_tmdb_defaults_sort_by">popularity</string>
+
+    <string name="pref_title_tmdb_sort_dir">Sort order</string>
+    <string name="pref_summary_tmdb_sort_dir_asc">Ascending</string>
+    <string name="pref_summary_tmdb_sort_dir_desc">Descending</string>
+    <string name="pref_text_tmdb_sort_dir_asc">asc</string>
+    <string name="pref_text_tmdb_sort_dir_desc">desc</string>
+
+    <!-- TMDB queries and rendering -->
+    <string name="tmdb_bp_BASE_URL">https://api.themoviedb.org/3/discover/movie</string>
+    <string name="tmdb_mg_BASE_URL">https://api.themoviedb.org/3/movie</string>
+    <string name="filename_posters_svg_list">posters_svg.list</string>
+    <string name="average_rating_short">avg. rating:</string>
+    <string name="content_authority">xyz.selfenrichment.robertotomas.popularmovies</string>
+    <string name="sync_account_type">popularmovies.robertotomas.selfenrichment.xyz</string>
+    <string name="tmdb_reviews_path">reviews</string>
+    <string name="tmdb_trailers_path">trailers</string>
+
+    <string name="pref_summary_posterboard_lists_favs">Favorites</string>
+    <string name="pref_summary_posterboard_lists_tmdb">TMDB</string>
+    <string name="pref_text_posterboard_lists_favs">favs</string>
+    <string name="pref_text_posterboard_lists_tmdb">tmdb</string>
+    <string name="pref_title_posterboard_listing">Open Posterboard to Favorites</string>
+    <string name="key_grid_view_movie">movie</string>
+    <string name="contentdescription_movie_poster">unset movie poster</string>
+    <string name="contentdescription_play_movie">play movie</string>
+
+
+</resources>

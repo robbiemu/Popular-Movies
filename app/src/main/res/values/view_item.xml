@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tag_view_item_position"/>
+    <string name="key_view_item_title" translatable="false">title</string>
+</resources>

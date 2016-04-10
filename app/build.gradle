@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "xyz.selfenrichment.robertotomas.popularmovies"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+            debug {
+                debuggable true
+            }
+         release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildTypes.each {
+        it.buildConfigField 'String', "API_KEY_THEMOVIEDB", "\"d1eba19f8277deef30414036b8360d13\""
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:recyclerview-v7:23.2.1'
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.pixplicity.easyprefs:library:1.8.1@aar'
+    compile 'com.caverock:androidsvg:1.2.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'me.everything:overscroll-decor-android:1.0.1'
+}
